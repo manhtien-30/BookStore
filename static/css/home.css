@@ -1,0 +1,152 @@
+/* CSS Document */
+.home {
+  background: url("../images/banner-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/*slide*/
+.home .slide {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 60vh;
+  display: none;
+}
+
+.home .slide.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .slide .content {
+  margin: auto;
+  text-align: center;
+}
+
+.home .slide .content span {
+  color: #222;
+  display: block;
+  font-size: 3rem;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  -webkit-animation: fadeIn 0.2s linear backwards;
+  animation: fadeIn 0.2s linear backwards;
+}
+
+.home .slide .content h3 {
+  font-size: 5rem;
+  color: #222;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  -webkit-animation: fadeIn 0.2s linear backwards 0.4s;
+  animation: fadeIn 0.2s linear backwards 0.4s;
+}
+
+.home .slide .content .btn {
+  -webkit-animation: fadeIn 0.2s linear backwards 0.6s;
+  animation: fadeIn 0.2s linear backwards 0.6s;
+}
+
+.home #next-slide,
+.home #prev-slide {
+  height: 5rem;
+  width: 5rem;
+  line-height: 4.5rem;
+  font-size: 2.5rem;
+  color: #222;
+  border: 0.2rem solid #222;
+  background: #fff;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  text-align: center;
+}
+
+.home #next-slide:hover,
+.home #prev-slide:hover {
+  background: #e60000;
+  color: #fff;
+}
+
+.home #prev-slide {
+  right: 8rem;
+}
+
+
+.home .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.home .row .content {
+  flex: 1 1 45rem;
+  
+}
+
+.home .row .books-slider {
+  flex: 1 1 42rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.home .row .books-slider a img {
+  height: 22rem;
+}
+
+.home .row .books-slider a:hover img {
+  transform: scale(0.9);
+}
+
+.home .row .books-slider .stand {
+  width: 100%;
+  margin-top: -2rem;
+}
+
+.home .row .content h3 {
+  color: var(--black);
+  font-size: 4.5rem;
+}
+
+.home .row .content p {
+  color: var(--light-color);
+  font-size: 1.4rem;
+  line-height: 2;
+  padding: 1rem 0;
+}
+
+.icons-container {
+  display: inline-block;
+  /* grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));*/
+  gap: 1.5rem;
+}
+
+.icons-container .icons {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+
+.icons-container .icons i {
+  font-size: 3.5rem;
+  color: var(--green);
+}
+
+.icons-container .icons h3 {
+  font-size: 2.2rem;
+  color: var(--black);
+  padding-bottom: 0.5rem;
+}
+
+.icons-container .icons p {
+  font-size: 1.4rem;
+  color: var(--light-color);
+}
+
+

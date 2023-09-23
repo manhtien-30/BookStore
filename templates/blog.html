@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IBook</title>
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <script src="js/blog.js" defer></script>
+  </head>
+  <body>
+    <!-- header section starts  -->
+    <!-- Snow effect  -->
+    <div class="snowflakes" aria-hidden="true">
+      <div class="snowflake">❅</div>
+      <div class="snowflake">❅</div>
+      <div class="snowflake">❆</div>
+      <div class="snowflake">❄</div>
+      <div class="snowflake">❅</div>
+      <div class="snowflake">❆</div>
+      <div class="snowflake">❄</div>
+      <div class="snowflake">❅</div>
+      <div class="snowflake">❆</div>
+      <div class="snowflake">❄</div>
+    </div>
+    <!-- Snow end -->
+    <!-- header section starts  -->
+    <header class="header">
+      <div class="header-1">
+        <a href="#" class="logo">
+          <img src="images/logo.jpg" alt="" height="37" width="110"
+        /></a>
+        <form action="" class="search-form">
+          <input
+            type="search"
+            name=""
+            placeholder="Tìm kiếm sản phẩm mong muốn..."
+            id="search-box"
+          />
+          <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="icons">
+          <div id="search-btn" class="fas fa-search"></div>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-bell"></a>
+          <a href="cart.html" class="fas fa-shopping-cart"></a>
+          <div id="login-btn" class="fas fa-user"></div>
+        </div>
+      </div>
+      <div class="header-2">
+        <nav class="nav--">
+          <ul>
+            <li><a href="home.html">Trang chủ</a></li>
+            <li>
+              <a href="featured.html">Sản phẩm nổi bật</a>
+              <div class="menu--1">
+                <ul>
+                  <li><a href="#best-seller">Bán chạy nhất</a></li>
+                  <li><a href="#high-rating">Đánh giá cao</a></li>
+                  <li><a href="#book-series">Sách trọn bộ</a></li>
+                  <li><a href="#odd-book"> Sách lẻ</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">Sản phẩm mới</a>
+              <div class="menu-1">
+                <ul>
+                  <li class="menu-hover">
+                    <a href="arrivals.html">Sách điện tử</a>
+                  </li>
+                  <li class="menu-hover">
+                    <a href="arrival1.html">Sách giáo khoa</a>
+                  </li>
+                  <li class="menu-hover">
+                    <a href="arrival2.html">Tạp chí</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="review.html">Đánh giá sản phẩm</a></li>
+            <li><a href="blog.html">Blogs</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- bottom navbar  -->
+
+    <nav class="bottom-navbar">
+      <a href="home.html" class="fas fa-home"></a>
+      <a href="featured.html" class="fas fa-list"></a>
+      <a href="arrivals.html" class="fas fa-tags"></a>
+
+      <a href="review.html" class="fas fa-comments"></a>
+      <a href="blog.html" class="fas fa-blog"></a>
+      <a href="contact.html" class="fas fa-file-signature"></a>
+    </nav>
+
+    <!-- login form  -->
+
+    <div class="login-form-container">
+      <div id="close-login-btn" class="fas fa-times"></div>
+
+      <form action="">
+        <h3>Đăng nhập</h3>
+        <span>Tên đăng nhập</span>
+        <input
+          type="email"
+          name=""
+          class="box"
+          placeholder="Nhập Email của bạn"
+          id=""
+        />
+        <span>Mật khẩu</span>
+        <input
+          type="password"
+          name=""
+          class="box"
+          placeholder="Nhập mật khẩu của bạn"
+          id=""
+        />
+        <div class="checkbox">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me"> Nhớ mật khẩu</label>
+        </div>
+        <input type="submit" value="Đăng nhập" class="btn" />
+        <p>Quên mật khẩu ? <a href="#">Nhấn vào đây</a></p>
+        <p>Bạn chưa có tài khoản ? <a href="register.html">Tạo</a></p>
+      </form>
+    </div>
+
+    <section class="home2" id="home2">
+      <div
+        class="slide active"
+        style="
+          background: url(images/banner2.jpg) no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <!--
+        <div class="content">
+          <span>merry christmas</span>
+          <h3>upto 60% off</h3>
+          <a href="#" class="btn">shop now</a>
+        </div>
+        -->
+      </div>
+
+      <div
+        class="slide"
+        style="
+          background: url(images/banner1.jpg) no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <!--
+        <div class="content">
+          <span>ho-ho-ho</span>
+          <h3>happy holiday</h3>
+          <a href="#" class="btn">shop now</a>
+        </div>-->
+      </div>
+
+      <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+      <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+    </section>
+    <!-- banner section starts  -->
+    <!--
+    <section class="banner" id="banner">
+      <div class="content">
+        <span>special offer</span>
+        <h3>upto 50% off</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+          numquam.
+        </p>
+        <a href="#" class="btn">shop now</a>
+      </div>
+    </section>
+-->
+    <!-- banner section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading"><span>Blogs</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>21</h3>
+              <span>jan</span>
+            </div>
+            <a href="#" class="user">
+              <i class="fas fa-user"></i> Quang Sang
+            </a>
+            <a href="#" class="title">
+              Ngày đẹp trời để cô đơn (Aoyama Nanae)
+            </a>
+            <p>
+              Cô gái hai mươi tuổi Mita Chizu rời bỏ quê nhà lên Tokyo sống và
+              tìm việc sau khi mẹ cô quyết định tới Trung Quốc. Ngôi nhà cô ở
+              trọ trong thời gian đầu đến...
+            </p>
+            <a href="#" class="btn">Đọc thêm</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>19</h3>
+              <span>feb</span>
+            </div>
+            <a href="#" class="user">
+              <i class="fas fa-user"></i> Hoàng Sinh
+            </a>
+            <a href="#" class="title">
+              Ngày đẹp trời để cô đơn (Aoyama Nanae)
+            </a>
+            <p>
+              Cô gái hai mươi tuổi Mita Chizu rời bỏ quê nhà lên Tokyo sống và
+              tìm việc sau khi mẹ cô quyết định tới Trung Quốc. Ngôi nhà cô ở
+              trọ trong thời gian đầu đến...
+            </p>
+            <a href="#" class="btn">Đọc thêm</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>02</h3>
+              <span>aug</span>
+            </div>
+            <a href="#" class="user"> <i class="fas fa-user"></i> Viết Sơn </a>
+            <a href="#" class="title">
+              Ngày đẹp trời để cô đơn (Aoyama Nanae)
+            </a>
+            <p>
+              Cô gái hai mươi tuổi Mita Chizu rời bỏ quê nhà lên Tokyo sống và
+              tìm việc sau khi mẹ cô quyết định tới Trung Quốc. Ngôi nhà cô ở
+              trọ trong thời gian đầu đến...
+            </p>
+            <a href="#" class="btn">Đọc thêm</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>02</h3>
+              <span>aug</span>
+            </div>
+            <a href="#" class="user"> <i class="fas fa-user"></i> Viết Sơn </a>
+            <a href="#" class="title">
+              Ngày đẹp trời để cô đơn (Aoyama Nanae)
+            </a>
+            <p>
+              Cô gái hai mươi tuổi Mita Chizu rời bỏ quê nhà lên Tokyo sống và
+              tìm việc sau khi mẹ cô quyết định tới Trung Quốc. Ngôi nhà cô ở
+              trọ trong thời gian đầu đến...
+            </p>
+            <a href="#" class="btn">Đọc thêm</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>02</h3>
+              <span>aug</span>
+            </div>
+            <a href="#" class="user"> <i class="fas fa-user"></i> Viết Sơn </a>
+            <a href="#" class="title">
+              Ngày đẹp trời để cô đơn (Aoyama Nanae)
+            </a>
+            <p>
+              Cô gái hai mươi tuổi Mita Chizu rời bỏ quê nhà lên Tokyo sống và
+              tìm việc sau khi mẹ cô quyết định tới Trung Quốc. Ngôi nhà cô ở
+              trọ trong thời gian đầu đến...
+            </p>
+            <a href="#" class="btn">Đọc thêm</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>02</h3>
+              <span>aug</span>
+            </div>
+            <a href="#" class="user"> <i class="fas fa-user"></i> Viết Sơn </a>
+            <a href="#" class="title">
+              Ngày đẹp trời để cô đơn (Aoyama Nanae)
+            </a>
+            <p>
+              Cô gái hai mươi tuổi Mita Chizu rời bỏ quê nhà lên Tokyo sống và
+              tìm việc sau khi mẹ cô quyết định tới Trung Quốc. Ngôi nhà cô ở
+              trọ trong thời gian đầu đến...
+            </p>
+            <a href="#" class="btn">Đọc thêm</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blogs section ends -->
+    <!-- posts section starts  -->
+
+    <section class="container" id="posts">
+      <div class="posts-container">
+        <section class="travel" id="travel">
+          <div class="post">
+            <img src="images/blog-1.jpg" alt="" class="image" />
+            <div class="date">
+              <i class="far fa-clock"></i>
+              <span>1 tháng 2, 2021</span>
+            </div>
+            <a href="blogdetail.html" class="title"
+              >Claude Monet – thế giới diệu kỳ của ánh sáng</a
+            >
+            <p class="text">
+              Claude Monet là một trong những người tiên phong sáng lập trường
+              phái hội họa ấn tượng. Trong thời gian đầu, những bức tranh “vượt
+              chuẩn” ấy đã phải chịu sự ghẻ lạnh của từ các phòng trưng bày bất
+              chấp sự độc đáo và những hiệu ứng mới mẻ.
+            </p>
+            <p class="text">
+              Claude Monet là một trong 6 cuốn thuộc bộ Danh họa thế giới mà
+              Omega Plus vừa phát hành đầu năm 2021. Giữa rất nhiều các nhà làm
+              sách, Omega Plus đi tìm một con đường riêng, có thể gập gềnh hơn
+              những con đường bằng phẳng và an toàn mà nhiều nhà muốn hướng đến.
+              Omega + mạnh dạn đầu tư vào dòng sách khá kén người đọc nhưng lại
+              chứa đựng giá trị tri thức lớn lao như: tủ sách lịch sử, tủ sách
+              kinh điển, tủ sách nhân vật và gần đây là tủ sách nghệ thuật. Bộ
+              sách Danh hoạ thế giới được độc giả chào đón nồng nhiệt ngay từ
+              khi ra mắt và đã có những phản hồi tích cực gồm 6 cuốn viết về
+              cuộc đời và sự nghiệp của các hoạ sĩ lừng danh: Vincent Van Gogh,
+              Claude Monet, Paul Gauguin, Paul Cézanne, Johannes Vermeer,
+              Hokusai . Bộ sách được trình bày đồng bộ, chỉn chu, khiến người
+              đọc vô cùng hào hứng. Chính cách viết thống nhất theo một mô-tip
+              khoa học lại khiến cho bộ sách dễ tiếp cận hơn với cả những người
+              không theo chuyên ngành, không am tường về nghệ thuật.
+            </p>
+            <div class="links">
+              <a href="#" class="user">
+                <i class="far fa-user"></i>
+                <span>admin</span>
+              </a>
+              <a href="#" class="icon">
+                <i class="far fa-comment"></i>
+                <span>(45)</span>
+              </a>
+              <a href="#" class="icon">
+                <i class="far fa-share-square"></i>
+                <span>(29)</span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="photography" id="photography">
+          <div class="post">
+            <img src="images/blog-2.jpg" alt="" class="image" />
+            <div class="date">
+              <i class="far fa-clock"></i>
+              <span>1 tháng 2, 2021</span>
+            </div>
+            <h3 class="title">An nhiên giữa những thăng trầm</h3>
+            <p class="text">
+              Có lẽ ai trong chúng ta cũng đều biết rằng, cuộc sống này đầy
+              những thăng trầm, biến động. Những lần rơi vào cô đơn giữa chốn
+              người mênh mông. Lúc đó, chợt nhận ra mình quá đơn độc, yếu đuối
+              và mong manh vô cùng. Hay những lúc đạt được thành công rực rỡ
+              nhưng xung quanh không có lấy một người bạn, một lời động viên,
+              chúc mừng, khi đó thành công cũng không mấy vui vẻ gì mà chỉ thêm
+              mông lung hơn, lẻ loi hơn.
+            </p>
+            <p class="text">
+              Nhưng dù là ai đi chăng nữa, mỗi người trong chúng ta cũng từng
+              một lần chực gục ngã, buông xuôi trong bão giông cuộc đời, không
+              còn quan tâm đến những điều xung quanh, mặc cho số phận đưa đẩy
+              trong dòng đời bất tận; hay từng một lần chán nản trước thế sự đổi
+              thay, lòng người nguội lạnh, những người tưởng chừng như gắn bó,
+              thân thiết chẳng thể tách rời nhưng rồi bỗng một ngày, người đó
+              lặng lẽ rời bỏ bạn, chỉ để lại một khoảng lặng trống trải bên
+              trong lòng của bạn;…
+            </p>
+            <div class="links">
+              <a href="#" class="user">
+                <i class="far fa-user"></i>
+                <span>admin</span>
+              </a>
+              <a href="#" class="icon">
+                <i class="far fa-comment"></i>
+                <span>(45)</span>
+              </a>
+              <a href="#" class="icon">
+                <i class="far fa-share-square"></i>
+                <span>(29)</span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="title3" id="title3">
+          <div class="post">
+            <img src="images/blog-3.jpg" alt="" class="image" />
+            <div class="date">
+              <i class="far fa-clock"></i>
+              <span>1 tháng 2, 2021</span>
+            </div>
+            <h3 class="title">8 Cuốn Sách Thay Đổi Tư Duy Để Thành Công</h3>
+            <p class="text">
+              Bạn là người trẻ, một hôm bỗng thấy hoang mang tự hỏi: ta đang làm
+              gì cuộc đời mình? Ta phải suy nghĩ như thế nào để thoát khỏi lối
+              mòn hiện tại?
+            </p>
+            <p class="text">
+              Bạn là một nhân viên công sở, ngày nọ bỗng quá ngán 8 giờ vàng
+              ngọc, những công việc lặp đi lặp lại không còn cảm hứng như thuở
+              ban đầu?
+            </p>
+            <div class="links">
+              <a href="#" class="user">
+                <i class="far fa-user"></i>
+                <span>admin</span>
+              </a>
+              <a href="#" class="icon">
+                <i class="far fa-comment"></i>
+                <span>(45)</span>
+              </a>
+              <a href="#" class="icon">
+                <i class="far fa-share-square"></i>
+                <span>(29)</span>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="sidebar">
+        <div class="box">
+          <h3 class="title">quản trị viên</h3>
+          <div class="about">
+            <img src="images/user.jpg" alt="" />
+            <h3>Nhóm 01</h3>
+            <p>
+              Đây là nơi tôi ghi chép lại những suy nghĩ vớ vẩn, những cảm nhận
+              trong cuộc sống và những kinh nghiệm về sách hay mà tôi đã từng
+              đọc qua.
+            </p>
+            <div class="follow">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+              <a href="#" class="fab fa-pinterest"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3 class="title">Thể loại</h3>
+          <div class="category">
+            <a href="#"> Du lịch <span>42</span></a>
+            <a href="#"> Nhiếp ảnh <span>75</span> </a>
+            <a href="#"> Công nghệ <span>22</span> </a>
+            <a href="#"> Thời trang <span>17</span> </a>
+            <a href="#"> Học tập <span>48</span> </a>
+            <a href="#"> Khoa học <span>39</span> </a>
+            <a href="#"> âm nhạc <span>59</span> </a>
+            <a href="#"> Doanh nghiệp <span>32</span> </a>
+            <a href="#"> thể thao <span>18</span> </a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3 class="title">Bài viết phổ biến</h3>
+          <div class="p-post">
+            <a href="#travel">
+              <h3>01. Claude Monet – thế giới diệu kỳ của ánh sáng</h3>
+              <span><i class="far fa-clock"></i>1 tháng 2, 2021</span>
+            </a>
+            <a href="#photography">
+              <h3>02. An Nhiên Giữa Những Thăng Trầm</h3>
+              <span><i class="far fa-clock"></i>1 tháng 2, 2021</span>
+            </a>
+            <a href="#title3">
+              <h3>03. 8 Cuốn Sách Thay Đổi Tư Duy Để Thành Công</h3>
+              <span><i class="far fa-clock"></i>1 tháng 2, 2021</span>
+            </a>
+            <a href="#">
+              <h3>04. Tiêu đề bài viết</h3>
+              <span><i class="far fa-clock"></i>1 tháng 2, 2021</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3 class="title">Từ khóa</h3>
+          <div class="tags">
+            <a href="#travel">Claude Monet</a>
+            <a href="#">Xuân Quỳnh</a>
+            <a href="#">Sài Gòn Books</a>
+            <a href="#title3">Thành công</a>
+            <a href="#">Sách hay</a>
+            <a href="#">Tình yêu</a>
+            <a href="#photography">An nhiên</a>
+            <a href="#">river</a>
+            <a href="#">camp</a>
+            <a href="#">landscape</a>
+            <a href="#">world</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- posts section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Chi nhánh</h3>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> UIT </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> USSH </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> UEL </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> BKU </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> IU </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> US </a>
+        </div>
+
+        <div class="box">
+          <h3>Phím tắt nhanh</h3>
+          <a href="home.html"> <i class="fas fa-arrow-right"></i> Trang chủ </a>
+          <a href="featured.html">
+            <i class="fas fa-arrow-right"></i> Sản phẩm nổi bật
+          </a>
+          <a href="arrivals.html">
+            <i class="fas fa-arrow-right"></i> Sản phẩm mới
+          </a>
+          <a href="review.html">
+            <i class="fas fa-arrow-right"></i> Đánh giá sản phẩm
+          </a>
+          <a href="blog.html"> <i class="fas fa-arrow-right"></i> blogs </a>
+          <a href="contact.html">
+            <i class="fas fa-arrow-right"></i> Liên hệ
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>Thông tin liên hệ</h3>
+          <a href="#"> <i class="fas fa-phone"></i> 091905469 </a>
+          <a href="#"> <i class="fas fa-phone"></i> 0123456789 </a>
+          <a href="mailto:19522063@gm.uit.edu.vn">
+            <i class="fas fa-envelope"></i> 19522063@gm.uit.edu.vn
+          </a>
+          <a href="mailto:19522047@gm.uit.edu.vn">
+            <i class="fas fa-envelope"></i> 19522047@gm.uit.edu.vn
+          </a>
+          <img src="images/worldmap.png" class="map" alt="" />
+        </div>
+      </div>
+
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="credit">Được tạo bởi <span>Nhóm 01</span> | Company !</div>
+    </section>
+  </body>
+</html>

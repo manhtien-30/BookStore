@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Thanh toán sản phẩm</title>
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body class="checkout">
+    <header>
+      <a href="#" class="logo">
+        <img src="images/logo.jpg" alt="" height="37" width="110"
+      /></a>
+      <br />
+      <br />
+    </header>
+
+    <div class="progress-checkout-container">
+      <div class="progress-step-container">
+        <div class="step-check"></div>
+        <span class="step-title">Mua hàng</span>
+      </div>
+      <div class="progress-step-container">
+        <div class="step-check"></div>
+        <span class="step-title">Thanh toán</span>
+      </div>
+      <div class="progress-step-container">
+        <div class="step-check"></div>
+        <span class="step-title">Đánh giá</span>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <h2 class="form-title">Chi tiết thanh toán</h2>
+      <form action="" class="checkout-form">
+        <div class="input-line">
+          <label for="name">Tên thẻ</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Nhập họ tên của bạn"
+          />
+        </div>
+        <div class="input-line">
+          <label for="name">Số thẻ</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="1111-2222-3333-4444"
+          />
+        </div>
+        <div class="input-container">
+          <div class="input-line">
+            <label for="name">Ngày hết hạn</label>
+            <input type="text" name="name" id="name" placeholder="09-21" />
+          </div>
+          <div class="input-line">
+            <label for="name">Mã thẻ</label>
+            <input type="text" name="name" id="name" placeholder="******" />
+          </div>
+        </div>
+        <a href="checkout2.html"> <input type="button" value="Đặt hàng" /></a>
+      </form>
+    </div>
+  </body>
+  <script src="js/script.js"></script>
+</html>

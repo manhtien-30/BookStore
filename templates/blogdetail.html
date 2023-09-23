@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    
+    
+    <link rel="stylesheet" href="css/blogdetail.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/blog.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+   	<!-- Snow effect  -->
+<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  ❅
+  </div>
+  <div class="snowflake">
+  ❆
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+</div>
+	<!-- Snow end -->
+    <!-- header section starts  -->
+    <header class="header">
+      <div class="header-1">
+        <a href="#" class="logo"> <img src="images/logo.jpg" alt="" height="37" width="110"></a>
+        <form action="" class="search-form">
+          <input
+            type="search"
+            name=""
+            placeholder="Tìm kiếm sản phẩm mong muốn..."
+            id="search-box"
+          />
+          <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="icons">
+          <div id="search-btn" class="fas fa-search"></div>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-bell"></a>
+          <a href="cart.html" class="fas fa-shopping-cart"></a>
+          <div id="login-btn" class="fas fa-user"></div>
+        </div>
+      </div>
+      <div class="header-2">
+        <nav class="nav--">
+		  <ul>
+          <li><a href="home.html">Trang chủ</a></li>
+          <li><a href="featured.html">Sản phẩm nổi bật</a>
+			   <div class="menu--1">
+			  <ul>
+				  <li><a href="#best-seller">Bán chạy nhất</a></li>
+				  <li><a href="#high-rating">Đánh giá cao</a></li>
+				  <li><a href="#book-series">Sách trọn bộ</a></li> 
+				  <li><a href="#odd-book">   Sách lẻ</a></li>
+			  </ul> 
+			  </div> 		  
+	      </li>
+		  <li><a href="#">Sản phẩm mới</a>
+			  <div class="menu-1">
+			  <ul>
+				  <li class="menu-hover"><a href="arrivals.html">Sách điện tử</a>
+				  </li>
+				  <li class="menu-hover"><a href="arrival1.html">Sách giáo khoa</a> 
+				  </li>
+				  <li class="menu-hover"><a href="arrival2.html">Tạp chí</a></li>  
+			  </ul> 
+			  </div>	  
+		  </li>
+	      <li><a href="review.html">Đánh giá sản phẩm</a></li>
+          <li><a href="blog.html">Blogs</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
+		 </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+    <!-- bottom navbar  -->
+
+    <nav class="bottom-navbar">
+      <a href="home.html" class="fas fa-home"></a>
+      <a href="featured.html" class="fas fa-list"></a>
+      <a href="arrivals.html" class="fas fa-tags"></a>
+
+      <a href="review.html" class="fas fa-comments"></a>
+      <a href="blog.html" class="fas fa-blog"></a>
+      <a href="contact.html" class="fas fa-file-signature"></a>
+    </nav>
+
+    <!-- login form  -->
+
+    <div class="login-form-container">
+      <div id="close-login-btn" class="fas fa-times"></div>
+
+      <form action="">
+        <h3>Đăng nhập</h3>
+        <span>Tên đăng nhập</span>
+        <input
+          type="email"
+          name=""
+          class="box"
+          placeholder="Nhập Email của bạn"
+          id=""
+        />
+        <span>Mật khẩu</span>
+        <input
+          type="password"
+          name=""
+          class="box"
+          placeholder="Nhập mật khẩu của bạn"
+          id=""
+        />
+        <div class="checkbox">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me"> Nhớ mật khẩu</label>
+        </div>
+        <input type="submit" value="Đăng nhập" class="btn" />
+        <p>Quên mật khẩu ? <a href="#">Nhấn vào đây</a></p>
+        <p>Bạn chưa có tài khoản ? <a href="register.html">Tạo</a></p>
+      </form>
+    </div>
+
+    <main id="site-main">
+      <!-- Post Content -->
+      <section class="container">
+        <article id="post">
+          <!-- article heading -->
+          
+          <div class="headings text-center">
+           <!-- <div class="category">
+              <a href="#" class="nav-link">blog</a>
+            </div>
+-->
+            <div class="title">
+              <h2 class="text-title text-dark display-1">
+                Claude Monet – thế giới diệu kỳ của ánh sáng
+              </h2>
+            </div>
+
+            <div class="meta">
+              <a href="#" class="link display-2 text-secondary px-1">
+                <i class="fas fa-user text-primary"></i> Admin IBook
+              </a>
+              <a href="#" class="link display-2 text-secondary px-1">
+                <i class="fas fa-clock text-primary"></i> 25 Tháng 12, 2021
+              </a>
+              <a href="#" class="link display-2 text-secondary px-1">
+                <i class="fas fa-comments text-primary"></i> 12
+              </a>
+            </div>
+          </div>
+
+          <!-- thumbnail  -->
+          <div class="thumbnail mt-3">
+            <img src="images/blog-1.jpg" class="thumbnail" alt="" />
+          </div>
+
+          <!-- content -->
+          <div class="content text-dark display-2 secondary-title mt-3" >
+            <p>
+              Claude Monet là một trong 6 cuốn thuộc bộ Danh họa thế giới mà
+              Omega Plus vừa phát hành đầu năm 2021. Giữa rất nhiều các nhà làm
+              sách, Omega Plus đi tìm một con đường riêng, có thể gập gềnh hơn
+              những con đường bằng phẳng và an toàn mà nhiều nhà muốn hướng đến.
+            </p>
+            <br />
+            <p>
+              Omega + mạnh dạn đầu tư vào dòng sách khá kén người đọc nhưng lại
+              chứa đựng giá trị tri thức lớn lao như: tủ sách lịch sử, tủ sách
+              kinh điển, tủ sách nhân vật và gần đây là tủ sách nghệ thuật. Bộ
+              sách Danh hoạ thế giới được độc giả chào đón nồng nhiệt ngay từ
+              khi ra mắt và đã có những phản hồi tích cực gồm 6 cuốn viết về
+              cuộc đời và sự nghiệp của các hoạ sĩ lừng danh: Vincent Van Gogh,
+              Claude Monet, Paul Gauguin, Paul Cézanne, Johannes Vermeer,
+              Hokusai .
+            </p>
+            <br />
+            <p>
+              Bộ sách được trình bày đồng bộ, chỉn chu, khiến người đọc vô cùng
+              hào hứng. Chính cách viết thống nhất theo một mô-tip khoa học lại
+              khiến cho bộ sách dễ tiếp cận hơn với cả những người không theo
+              chuyên ngành, không am tường về nghệ thuật.
+            </p>
+            <br />
+            <p>
+              Trở lại với cuốn sách Claude Monet. Claude Monet là một trong
+              những người tiên phong sáng lập trường phái hội họa ấn tượng. Với
+              sự nhấn mạnh vào sự chuyển động của ánh sáng trong tranh, những
+              bức vẽ mang lại một vẻ tươi mới, đầy sức sống cho khung cảnh.
+              Trong thời gian đầu, những bức tranh “vượt chuẩn” ấy đã phải chịu
+              sự ghẻ lạnh của từ các phòng trưng bày bất chấp sự độc đáo và
+              những hiệu ứng mới mẻ.
+            </p>
+            <br />
+            <p>
+              Mục lục sách gồm nhiều đề mục nhưng tựu trung được chia làm 2 phần
+              chính. Phần thứ nhất gồm hơn 20 trang giới thiệu về thân thế, cuộc
+              đời, sự nghiệp của Claude Monet một cách chi tiết và khoa học. Đọc
+              cuốn sách, tôi hiểu được ảnh hưởng của những thay đổi, biến cố
+              trong cuộc đời đến phong cách, nét vẽ của ông. Ví dụ như, dù được
+              cho là một người lạnh nhạt với những mối quan hệ gia đình, nhưng
+              khi vợ ông – Camille qua đời, tác phẩm của ông vắng bóng hẳn mảng
+              vẽ chân dung. Điều đó, chứng tỏ Camille có một vị trí rất quan
+              trọng đối với ông, dù là trong cuộc sống hay ở lĩnh vực hội họa,
+              mặc dù không lâu sau đó, ông đã kết hôn với người tình của mình và
+              cuộc hôn nhân kéo dài trong một thời gian dài – Alice Hóchede.
+            </p>
+            <br />
+            <p>
+              Nội dung chủ yếu của cuốn sách tập trung vào 45 bức vẽ đẹp đẽ và
+              ấn tượng của Monet. Ở đây, các bức vẽ sẽ được giới thiệu chi tiết
+              theo một cấu trúc chung: tên bức vẽ, hoàn cảnh sáng tác và điểm
+              đặc biệt khiến bức tranh trở thành kiệt tác và được yêu thích cho
+              đến tận ngày nay.
+            </p>
+            <br>
+            <p>Cuốn sách Claude Monet nói riêng và bộ sách Danh hoạ thế giới phù hợp với cả những người am tường về nghệ thuật, về hội họa và với tất cả những người muốn được mở rộng tâm hồn, muốn được đắm chìm trong sự tinh tế của màu sắc và sự diệu kỳ của nét bút tài hoa</p>
+            <br />
+            <p class="author">Admin IBook</p>
+            <br>
+            <p class="author">Nguồn: sachhay.vn</p>
+          </div>
+        </article>
+              <div class="post-comments py-2">
+            <h3 class="text-center display-1 secondary-title py-2">
+              3 bình luận
+            </h3>
+
+            <div class="comment-details">
+              <div class="comment-item py-2">
+                <div class="d-flex">
+                  <div class="avatar px-2">
+                    <img src="images/pic-3.png" class="rounded" alt="" />
+                  </div>
+                  <div class="comment-content">
+                    <h5 class="display-2 m-0">Brandon Kelley</h5>
+                    <p class="title-secondary text-dark" style="font-size: 15px; padding-top: 15px;">
+                      Bài viết quá hay, tôi sẽ mua và đọc ngay cuốn sách này
+                    </p>
+                  </div>
+                </div>
+                <!-- comment reply -->
+                <div class="reply py-2">
+                  <div class="d-flex">
+                    <div class="avatar px-2">
+                      <img
+                        src="images/pic-2.png"
+                        class="rounded"
+                        alt=""
+                      />
+                    </div>
+                    <div class="comment-content">
+                      <h5 class="display-2 m-0">Brandon Kelley</h5>
+                      <p class="title-secondary text-dark" style="font-size: 15px; padding-top: 15px;">
+                        Tác giả thật là một người có tâm, đã tạo ra một bài viết rất hay.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="reply py-2">
+                  <div class="d-flex">
+                    <div class="avatar px-2">
+                      <img
+                        src="images/pic-4.png"
+                        class="rounded"
+                        alt=""
+                      />
+                    </div>
+                    <div class="comment-content">
+                      <h5 class="display-2 m-0">Brandon Kelley</h5>
+                      <p class="title-secondary text-dark" style="font-size: 15px; padding-top: 15px;">
+                        Bài viết quá hay và ý nghĩa.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+
+            <h3 class="text-center display-1 secondary-title1 py-2">
+              Để lại bình luận
+            </h3>
+            <div class="comment-form">
+              <div class="d-flex justify-content-between flex-wrap">
+                <input type="text" id="submit-name" class="form-control" placeholder="Tên của bạn" />              
+              </div>
+              <textarea
+                class="form-control mt-3"
+                placeholder="Bình luận"
+                rows="10"
+                id="submit-content"
+              ></textarea>
+              <div class="text-center">
+                <button
+                  type="submit"
+                  id="submit-btn"
+                  class="btn btn-primary display-2 text-light mt-2"
+                  onclick="alert('Cảm ơn bạn đã gửi bình luận')"
+                >
+                  Đăng
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </section>
+    </main>
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Chi nhánh</h3>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> UIT </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> USSH </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> UEL </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> BKU </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> IU </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> US </a>
+        </div>
+
+        <div class="box">
+          <h3>Phím tắt nhanh</h3>
+          <a href="home.html"> <i class="fas fa-arrow-right"></i> Trang chủ </a>
+          <a href="featured.html">
+            <i class="fas fa-arrow-right"></i> Sản phẩm nổi bật
+          </a>
+          <a href="arrivals.html">
+            <i class="fas fa-arrow-right"></i> Sản phẩm mới
+          </a>
+          <a href="review.html">
+            <i class="fas fa-arrow-right"></i> Đánh giá sản phẩm
+          </a>
+          <a href="blog.html"> <i class="fas fa-arrow-right"></i> blogs </a>
+          <a href="contact.html">
+            <i class="fas fa-arrow-right"></i> Liên hệ
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>Thông tin liên hệ</h3>
+          <a href="#"> <i class="fas fa-phone"></i> 091905469 </a>
+          <a href="#"> <i class="fas fa-phone"></i> 0123456789 </a>
+          <a href="mailto:19522063@gm.uit.edu.vn">
+            <i class="fas fa-envelope"></i> 19522063@gm.uit.edu.vn
+          </a>
+          <a href="mailto:19522047@gm.uit.edu.vn">
+            <i class="fas fa-envelope"></i> 19522047@gm.uit.edu.vn
+          </a>
+          <img src="images/worldmap.png" class="map" alt="" />
+        </div>
+      </div>
+
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="credit">Được tạo bởi <span>Nhóm 01</span> | Company !</div>
+    </section>
+   
+  </body>
+</html>

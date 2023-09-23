@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IBook</title>
+    <!--
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+-->
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/detail.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <div class="header-1">
+        <a href="#" class="logo"> <i class="fas fa-book"></i> ibook </a>
+
+        <form action="" class="search-form">
+          <input
+            type="search"
+            name=""
+            placeholder="Tìm kiếm sản phẩm mong muốn..."
+            id="search-box"
+          />
+          <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+          <div id="search-btn" class="fas fa-search"></div>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-bell"></a>
+          <a href="cart.html" class="fas fa-shopping-cart"></a>
+          <div id="login-btn" class="fas fa-user"></div>
+        </div>
+      </div>
+      <base target="nd" />
+      <div class="header-2">
+        <nav class="navbar">
+          <a href="home.html">Trang chủ</a>
+          <a href="featured.html">Sản phẩm nổi bật</a>
+          <!-- <a href="arivals.html">Sản phẩm mới</a>-->
+          <div class="dropdown">
+            <a href="arrivals.html">
+              <button class="dropbtn">Sản phẩm mới</button>
+            </a>
+            <div class="dropdown-content">
+              <a href="arrivals.html">Sách khoa học - Công nghệ</a>
+              <a href="arrival1.html">Sách giáo khoa</a>
+              <a href="#">Sách Lý luận - Chính trị</a>
+            </div>
+          </div>
+          <a href="review.html">Đánh giá sản phẩm</a>
+          <a href="blog.html">blogs</a>
+          <a href="contact.html">Liên hệ</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- bottom navbar  -->
+
+    <nav class="bottom-navbar">
+      <a href="home.html" class="fas fa-home"></a>
+      <a href="featured.html" class="fas fa-list"></a>
+      <a href="arrivals.html" class="fas fa-tags"></a>
+      <a href="review.html" class="fas fa-comments"></a>
+      <a href="blog.html" class="fas fa-blog"></a>
+      <a href="contact.html" class="fas fa-file-signature"></a>
+    </nav>
+
+    <!-- login form  -->
+
+    <div class="login-form-container">
+      <div id="close-login-btn" class="fas fa-times"></div>
+
+      <form action="">
+        <h3>Đăng nhập</h3>
+        <span>Tên đăng nhập</span>
+        <input
+          type="email"
+          name=""
+          class="box"
+          placeholder="Nhập Email của bạn"
+          id=""
+        />
+        <span>Mật khẩu</span>
+        <input
+          type="password"
+          name=""
+          class="box"
+          placeholder="Nhập mật khẩu của bạn"
+          id=""
+        />
+        <div class="checkbox">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me"> Nhớ mật khẩu</label>
+        </div>
+        <input type="submit" value="Đăng nhập" class="btn" />
+        <p>Quên mật khẩu ? <a href="#">Nhấn vào đây</a></p>
+        <p>Bạn chưa có tài khoản ? <a href="register.html">Tạo</a></p>
+      </form>
+    </div>
+
+    <!-- home section starts  -->
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
